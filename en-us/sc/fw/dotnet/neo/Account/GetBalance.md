@@ -1,7 +1,8 @@
 # Account.GetBalance Method (byte[])
 
 Obtain the balance of specified assets in the account through the asset ID.
-
+Erhalte den Wert eines angegebenen Vermögenswert in einem Account anhand der Asset ID.
+ 
 Namespace: [Neo.SmartContract.Framework.Services.Neo](../../neo.md)
 
 Assembly: Neo.SmartContract.Framework
@@ -12,11 +13,11 @@ Assembly: Neo.SmartContract.Framework
 public extern long GetBalance (byte[] asset_id)
 ```
 
-Parameters: Asset ID, the transaction ID of the RegisterTransaction when the asset is registered. It is a byte array of length 32.
+Parameter: Asset ID, die Transaktions ID des RegisterTransaction wenn der Vermögenswert registriert wurde. Die Transaktions ID besteht aus einem 32 langen Byte Arry.
 
-Return value: The balance of the assets in the account as a long, equal to the actual amount multiplied by 100,000,000.
+Zurückgegebener Wert: Der Wert eines Vermögenswertes ist so lange wie der aktuelle Wert multipliziert mit 100,000,000.
 
-## Example
+## Beispiel
 
 ```c#
 public class Contract1: FunctionCode
