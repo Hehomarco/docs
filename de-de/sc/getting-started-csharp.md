@@ -1,6 +1,3 @@
----
-typora-root-url: ..\..
----
 
 ### Wie man C# verwendet um einen NEO Smart Contract zu schreiben
 
@@ -26,9 +23,9 @@ Die Installation braucht zwischen zehn Minuten und einer Stunde.
 
 ![install net core cross-platform development toolset](/assets/install_core_cross_platform_development_toolset.png)
 
-### 2. NeoContractPlugin
 
-Installationsmethode:
+Installation:
+
 
 Starten Sie Visual Studio 2017, öffnen Sie Werkzeuge, klicken Sie auf Erweiterungen und Updates, klicken Sie auf den Online Reiter auf der linken Seite, suchen Sie nach NEO in der Suchbox, laden Sie das NeoContractPlugin herunter (dieser Schritt benötigt eine Internetverbindung).
 
@@ -85,9 +82,9 @@ Wenn Sie ein Projekt erstellt haben, wird automatisch eine C# Datei erzeugt. Das
 ![smart contract function code](/assets/smart_contract_function_code.png)
 
 
-## Kompilieren des Projektes
 
-Alles ist nun soweit um die Entry Methode, die die Smart Contracts definiert hinzuzufügen.
+Nun können Sie die Entry Methode, die die Smart Contracts definiert, hinzufügen.
+
 
 ```c#
 public class Contract1: SmartContract
@@ -99,9 +96,9 @@ public class Contract1: SmartContract
 }
 ```
 
-Wenn der Befehl erfolgreich ausgeführt wurde, sehen Sie eine Datei namens ` SmartContract1.avm` im `bin/Debug` Verzeichnis, diese Datei ist der generierte NEO Smart Contract.
-
-![compile smart contract](assets/compile_smart_contract.png)
+Wenn der Befehl erfolgreich ausgeführt wurde, sehen Sie eine Datei namens `SmartContract1.avm` im `bin/Debug` Verzeichnis, diese Datei ist der generierte NEO Smart Contract.
 
 
-Da Sie nun die Konfiguration des NEO Smart Contract Development Environment durchgeführt haben, bitten wir Sie für weitere Informationen folgendes Tutorial zu beachten.  [NEO smart contract tutorial](tutorial.md)
+
+Da Sie nun die Konfiguration des NEO Smart Contract Development Environment durchgeführt haben, bitten wir Sie für weitere Informationen folgendes Tutorial zu beachten.  [NEO Smart Contract Tutorial](tutorial.md)
+
