@@ -61,6 +61,6 @@ namespace Neo.SmartContract
 }
 ```
 
-Der Contract implementiert ein Domain Name System, wobei die Domain Names auf Daten in der Blockchain zeigen. Es handelt sich nicht um echte Domain Names auf dem Internet.
+Der Contract implementiert ein Domain Name System, wobei die Domain Names auf Daten in der Blockchain zeigen. Es handelt sich nicht um echte Domain Names aus dem Internet.
 Der Code oben implementiert das abfragen, registrieren, übertragen und löschen von Domain Names.
 Details finden sie unter: [Storage](../fw/dotnet/neo/Storage.md).
